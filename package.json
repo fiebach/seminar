@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "all-package-names": "^2.0.204",
+    "all-the-packages": "^1.2.0",
+    "check-npm-dependents": "^1.1.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "package-dependents": "^2.0.2",
+    "query-registry": "^2.0.0",
+    "replaceall": "^0.1.6",
+    "request-promise": "^4.2.6",
+    "sqlite3": "^5.0.2",
+    "top-dependents": "^1.1.0",
+    "website-scraper": "^4.2.3"
+  },
+  "name": "seminar",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

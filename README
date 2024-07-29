@@ -1,0 +1,16 @@
+# seminar paper: Analysis and comparison of npm with CRAN and PyPI
+
+The code for this project is for a seminar paper.
+
+# Abstract: 
+Open source software and therefore software package registries play an important role in software development. 
+The npm registry alone currently contains over 1.8 million packages and continues to grow exponentially. 
+Due to the dependencies between packages, registries are also a very attractive target for attackers, as a single popular malicious package can affect a large part of the registry ecosystem. 
+Therefore, in this study we compared npm, CRAN and PyPI based on data from previous studies to determine which ecosystem is particularly vulnerable to malicious packages and compromised maintainer accounts. 
+Furthermore, we also examined packages from npm with many dependents and a high PageRank to find out how they differ from each other.
+The comparison of different ecosystems showed that individual malicious packages in all three ecosystems can pose a great threat to the entire repository. 
+In particular, npm and CRAN are very vulnerable due to their structure, as many packages have interdependencies. 
+PyPI, on the other hand, is not such an attractive target for attackers, because of its high proportion of isolated packages.
+In our investigation of the packages with the most dependents and highest PageRank, we found that packages with the most dependents have significantly fewer dependencies than packages with the highest PageRank. 
+We also discovered that the number of dependents increased for all examined packages, which can be seen as an indicator that once dependencies have been created, they are rarely dissolved again. 
+The results of our study and the security incidents in recent years show that it is important to increase security in package software repositories in order to prevent the spread of malicious packages.
